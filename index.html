@@ -155,10 +155,14 @@ section.active{display:block}
             <a data-section="cover" class="active"><span class="d"></span>Cover</a>
             <a data-section="summary"><span class="d"></span>Executive Summary</a>
             <a data-section="approach"><span class="d"></span>My Approach</a>
+            <div style="margin:0.6rem 0 0.2rem;font-size:0.55rem;color:var(--accent);letter-spacing:0.05em;font-weight:700;">🤝 사업개발 / 제휴</div>
             <a data-section="case1"><span class="d"></span>Case 1 · 클로바더빙</a>
-            <a data-section="case2"><span class="d"></span>Case 2 · Meet On</a>
-            <a data-section="case3"><span class="d"></span>Case 3 · One Number</a>
-            <a data-section="case4"><span class="d"></span>Case 4 · Works Project</a>
+            <a data-section="case2"><span class="d"></span>Case 2 · 앱마켓</a>
+            <div style="margin:0.6rem 0 0.2rem;font-size:0.55rem;color:var(--accent);letter-spacing:0.05em;font-weight:700;">⚙️ 기획 / 실행 관리</div>
+            <a data-section="case3"><span class="d"></span>Case 3 · Works Project</a>
+            <a data-section="case4"><span class="d"></span>Case 4 · Meet On</a>
+            <div style="margin:0.6rem 0 0.2rem;font-size:0.55rem;color:var(--accent);letter-spacing:0.05em;font-weight:700;">📊 성과 / 지표 관리</div>
+            <a data-section="case5"><span class="d"></span>Case 5 · One Number</a>
             <a data-section="closing"><span class="d"></span>Closing</a>
         </nav>
     </div>
@@ -197,31 +201,29 @@ section.active{display:block}
     </p>
 
     <div class="label">경험 영역 — 사업 사이클 관점</div>
-    <div class="g5" style="margin-bottom:2rem;">
-        <div class="cap-pill"><span class="icon">🎯</span>전략 / 수익 구조</div>
+    <div class="g5" style="margin-bottom:2rem;grid-template-columns:repeat(3,1fr);">
         <div class="cap-pill"><span class="icon">🤝</span>사업개발 / 제휴</div>
-        <div class="cap-pill"><span class="icon">📦</span>제품 기획</div>
-        <div class="cap-pill"><span class="icon">⚙️</span>실행 / 계약</div>
-        <div class="cap-pill"><span class="icon">📊</span>데이터 / 의사결정</div>
+        <div class="cap-pill"><span class="icon">⚙️</span>기획 / 실행 관리</div>
+        <div class="cap-pill"><span class="icon">📊</span>성과 / 지표 관리</div>
     </div>
 
     <div class="label">핵심 프로젝트</div>
-    <div class="g2">
+    <div class="g3">
         <div class="card">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;">🤝 사업개발 / 제휴</div>
             <h4>클로바더빙 유료화 전략</h4>
             <p>약 44% 사용자 이탈 데이터를 분석하여 문제를 가격이 아닌 '사용자 전환 구조'로 재정의하고, 전환 트리거 기반 수익화 설계 및 신규 수익 구조를 설계</p>
+            <p style="margin-top:0.4rem;font-size:0.72rem;color:var(--muted);">+ 앱마켓 입점 협상 및 운영</p>
         </div>
         <div class="card">
-            <h4>Meet On (화상회의 SDK)</h4>
-            <p>외부 SDK 도입을 위해 품질·가격뿐 아니라 China Risk까지 포함한 리스크를 종합 분석하고, 공급사 실무 협상을 통해 약 3억 규모 계약 승인 획득</p>
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;">⚙️ 기획 / 실행 관리</div>
+            <h4>Works Project · Meet On SDK</h4>
+            <p>업무관리 도구 시장 구조화 및 WORKS 플랫폼 내 기능 통합 제품 기획. 화상회의 SDK 도입을 위한 리스크 종합 분석 및 공급사 협상을 통해 약 3억 규모 계약 승인 획득</p>
         </div>
         <div class="card">
+            <div class="label" style="margin-bottom:0.4rem;font-size:0.6rem;">📊 성과 / 지표 관리</div>
             <h4>One Number</h4>
             <p>조직별로 분산된 데이터 소스와 상이한 KPI 산식 문제를 확인, 성과 지표 통합을 위한 데이터 구조를 설계하고 상품 평가 프레임워크를 구축</p>
-        </div>
-        <div class="card">
-            <h4>Works Project</h4>
-            <p>업무관리 도구 시장을 업무 단계 관점으로 구조화하고, WORKS 플랫폼 내 기능 통합 방향의 제품 기획 및 단계별 전략 로드맵을 설계</p>
         </div>
     </div>
 </section>
@@ -279,6 +281,11 @@ section.active{display:block}
         </div>
     </div>
 </section>
+
+<!-- ===== 영역: 사업개발 / 제휴 ===== -->
+<div style="padding:2rem 0 0;">
+    <div style="font-size:0.75rem;color:var(--accent);letter-spacing:0.06em;font-weight:700;border-bottom:1px solid var(--line);padding-bottom:0.5rem;margin-bottom:0.5rem;">🤝 사업개발 / 제휴</div>
+</div>
 
 <!-- ===== CASE 1: 클로바더빙 ===== -->
 <section id="case1">
@@ -373,9 +380,173 @@ section.active{display:block}
     </div>
 </section>
 
-<!-- ===== CASE 2: Meet On ===== -->
+<!-- ===== CASE 2: 앱마켓 ===== -->
 <section id="case2">
-    <div class="eyebrow">Case Study 02 — 기획·실행 관리</div>
+    <div class="eyebrow">Case Study 02 — 사업개발·제휴</div>
+    <div class="case">
+        <span class="case-badge">STRATEGY</span>
+        <div class="case-title">앱마켓 입점 협상 및 운영 — 파트너 입점·유입·수익 구조 경험</div>
+        <div class="case-sub">무료/유료 플랜 동시 구성 시 카니발라이제이션 영향을 실제 운영에서 체감했다.</div>
+
+        <div class="case-section">
+            <div class="case-section-title">📌 Context</div>
+            <p>WORKS 앱마켓의 파트너 입점 및 운영을 담당하며, 신규 파트너 유치부터 입점 협상, 무료/유료 플랜 구성, 운영 안정화까지의 전 과정을 수행했습니다.</p>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title"><span class="star">⭐</span> Problem Definition</div>
+            <p>단순 입점 수 확대가 아니라, <strong>무료/유료 플랜을 동시 구성할 때 발생하는 카니발라이제이션 영향과, 유입에서 수익으로 이어지는 구조를 어떻게 설계할 것인가</strong>가 핵심 문제였습니다.</p>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">⚖️ Key Considerations</div>
+            <div class="tradeoff">
+                <div class="tradeoff-label">Tradeoff Analysis</div>
+                <p><strong>사용자 유입 확대 vs 수익성</strong> — 무료 플랜으로 유입을 극대화하면 유료 전환율이 희석될 수 있고, 유료만 운영하면 유입 자체가 제한</p>
+                <p style="margin-top:0.3rem;"><strong>기능 확장 vs 사용성</strong> — 기능 구성과 사용자층에 따라 카니발라이제이션 영향이 달라질 수 있으며, 플랜 간 기능 차별화 설계가 필요</p>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">🎯 My Role</div>
+            <ul>
+                <li>파트너 입점 협상 및 운영 수행</li>
+                <li>무료/유료 플랜 구조 설계 참여</li>
+            </ul>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">🔧 Approach</div>
+            <ul>
+                <li>신규 파트너 유치를 위한 입점 협상을 진행하고, 입점 후 운영 안정화까지 관리</li>
+                <li>무료/유료 플랜 동시 구성 시 유입-수익 관계를 분석하며 실제 운영 데이터를 통해 구조를 개선</li>
+            </ul>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">💡 Decision</div>
+            <p>무료/유료 플랜의 <strong>기능 차별화</strong>와 사용자층에 따른 <strong>카니발라이제이션 관리</strong>를 병행하는 방향을 선택했습니다. 유입 확대와 수익성의 균형점을 운영 데이터 기반으로 조정해 나갔습니다.</p>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">📈 Result</div>
+            <div class="result-grid">
+                <div class="result-item">
+                    <div class="result-v">1개 입점</div>
+                    <div class="result-l">신규 파트너<br>입점 협상 완료</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-v">4개 운영</div>
+                    <div class="result-l">기존 파트너<br>운영 안정화</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-v">유입-수익 구조</div>
+                    <div class="result-l">무료/유료 구조 경험<br>유입-수익 관계 이해</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== 영역: 기획 / 실행 관리 ===== -->
+<div style="padding:2rem 0 0;">
+    <div style="font-size:0.75rem;color:var(--accent);letter-spacing:0.06em;font-weight:700;border-bottom:1px solid var(--line);padding-bottom:0.5rem;margin-bottom:0.5rem;">⚙️ 기획 / 실행 관리</div>
+</div>
+
+<!-- ===== CASE 3: Works Project ===== -->
+<section id="case3">
+    <div class="eyebrow">Case Study 03 — 기획·실행 관리</div>
+    <div class="case">
+        <span class="case-badge">PRODUCT</span>
+        <div class="case-title">WORKS Project — 업무관리 도구 제품 기획 및 시장 분석</div>
+        <div class="case-sub">별도 SaaS 도입이 아닌, 기존 플랫폼 내 기능 통합 방향을 선택했다.</div>
+
+        <div class="case-section">
+            <div class="case-section-title">📌 Context</div>
+            <p>WORKS 플랫폼의 업무관리 기능 확장이 필요한 상황이었습니다. 글로벌 시장에서 Monday.com, ClickUp 등 범용 업무관리 도구가 커뮤니케이션 영역(메일·메신저)과의 통합을 통해 빠르게 성장하고 있었고, 국내에서도 메신저+업무관리 세트형 시장 진출이 활발한 상태였습니다.</p>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title"><span class="star">⭐</span> Problem Definition</div>
+            <p>"어떤 업무관리 도구를 만들 것인가"가 아니라, <strong>"업무 요청의 발생–수집/분류–수행 단계 중 어디를 타겟으로 할 것인지, WORKS의 강점 영역에서 Up-selling할 것인지 신규 시장에 진출할 것인지"</strong>가 핵심 문제였습니다. 업무관리 도구 시장의 구조와 WORKS의 포지셔닝을 정의해야 했습니다.</p>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">⚖️ Key Considerations</div>
+            <div class="tradeoff">
+                <div class="tradeoff-label">Tradeoff Analysis</div>
+                <p><strong>Up-selling vs 신규 시장 진출</strong> — WORKS 기존 고객 대상 업무관리 기능 Up-selling은 확실한 고객 기반이 있으나 시장 규모가 제한적. 신규 시장 진출은 추가 매출 확보 가능하나 진입 비용 발생</p>
+                <p style="margin-top:0.3rem;"><strong>내부 이벤트 수집 vs 외부 이벤트 수집</strong> — 메일·메신저 등 WORKS 내부 이벤트 기반 자동화를 우선할 것인지, 외부 3rd party 도구 연동을 통한 확장을 우선할 것인지</p>
+                <p style="margin-top:0.3rem;"><strong>별도 SaaS vs 플랫폼 통합</strong> — 별도 SaaS 도입 시 사용자 부담이 크고, 기존 플랫폼 내 기능 통합이 사용자 편익과 확장성 측면에서 유리</p>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">🎯 My Role</div>
+            <ul>
+                <li>프로젝트 관리도구 상위 기획서 제작 (제품 컨셉 아이디어 및 리서치 / 내부 사용성 데이터 분석 지원)</li>
+                <li>사용자/파트너 인터뷰 진행 및 핵심 요구사항 도출 및 개발 우선순위 조정 (<strong>과제 리드</strong>)</li>
+            </ul>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">🔧 Approach</div>
+            <ul>
+                <li>데스크 리서치를 통해 협업도구의 관리 니즈가 커뮤니케이션에서 실행 과정 전반으로 확대된다는 인사이트를 발굴하여 상위 기획서 제품 컨셉 도출에 기여</li>
+                <li>사용자/파트너사 인터뷰를 통해, 별도의 SaaS를 도입하는 것에 대한 거부감과 시장 성숙도가 낮음을 근거로 세부 기능 고도화보다는 기존 협업툴과의 연동을 우선순위 과제로 진행하는데 기여</li>
+            </ul>
+        </div>
+
+        <div class="case-section slide-gallery">
+            <div class="slide-gallery-title">📎 검토 자료 (실제 산출물)</div>
+            <div class="slide-grid">
+                <div class="slide-item" onclick="openLightbox(this)">
+                    <img src="slides/works_analysis.png" alt="업무 단계 및 분석 대상 정의" loading="lazy">
+                    <div class="slide-caption"><strong>업무 단계 분석</strong> — 발생–수집/분류–수행 3단계 정의 및 시장 분류</div>
+                </div>
+                <div class="slide-item" onclick="openLightbox(this)">
+                    <img src="slides/works_market_global.png" alt="글로벌 시장 분석" loading="lazy">
+                    <div class="slide-caption"><strong>글로벌 시장 현황</strong> — Monday.com·ClickUp 등 초기 형태 및 확장 전략 분석</div>
+                </div>
+                <div class="slide-item" onclick="openLightbox(this)">
+                    <img src="slides/works_strategy.png" alt="시장 분석 결론" loading="lazy">
+                    <div class="slide-caption"><strong>시장 분석 결론</strong> — Up-selling vs 신규 시장 진출 Option 도출</div>
+                </div>
+                <div class="slide-item" onclick="openLightbox(this)">
+                    <img src="slides/works_roadmap.png" alt="전략 방향성 도출" loading="lazy">
+                    <div class="slide-caption"><strong>전략 방향성 로드맵</strong> — Option별 진입·성장 과제 설계 및 Target 고객군 정의</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">💡 Decision</div>
+            <p>별도 SaaS 도입이 아닌, <strong>WORKS 플랫폼 내 기능 통합 방향</strong>을 선택했습니다. 사용자 부담을 최소화하면서도, 메일·메신저·드라이브 등 WORKS 강점 영역의 내부 이벤트를 Trigger 기반으로 자동 수집하는 구조를 우선 설계하고, 이후 외부 이벤트 수집 및 워크플로 자동화로 확장하는 단계별 로드맵을 제안했습니다.</p>
+        </div>
+
+        <div class="case-section">
+            <div class="case-section-title">📈 Result</div>
+            <div class="result-grid">
+                <div class="result-item">
+                    <div class="result-v">제품 출시</div>
+                    <div class="result-l">플랫폼 내 기능 통합<br>방향으로 제품 출시</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-v">사용자 니즈 도출</div>
+                    <div class="result-l">인터뷰 기반<br>SaaS 도입 부담 인사이트</div>
+                </div>
+                <div class="result-item">
+                    <div class="result-v">전략 수립</div>
+                    <div class="result-l">도입 부담 인사이트 기반<br>통합 전략 수립</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== CASE 4: Meet On ===== -->
+<section id="case4">
+    <div class="eyebrow">Case Study 04 — 기획·실행 관리</div>
     <div class="case">
         <span class="case-badge">EXECUTION</span>
         <div class="case-title">화상회의 신규 상품 — 외부 SDK 선정 및 계약</div>
@@ -460,9 +631,14 @@ section.active{display:block}
     </div>
 </section>
 
-<!-- ===== CASE 3: One Number ===== -->
-<section id="case3">
-    <div class="eyebrow">Case Study 03 — 성과·지표 관리</div>
+<!-- ===== 영역: 성과 / 지표 관리 ===== -->
+<div style="padding:2rem 0 0;">
+    <div style="font-size:0.75rem;color:var(--accent);letter-spacing:0.06em;font-weight:700;border-bottom:1px solid var(--line);padding-bottom:0.5rem;margin-bottom:0.5rem;">📊 성과 / 지표 관리</div>
+</div>
+
+<!-- ===== CASE 5: One Number ===== -->
+<section id="case5">
+    <div class="eyebrow">Case Study 05 — 성과·지표 관리</div>
     <div class="case">
         <span class="case-badge">DATA</span>
         <div class="case-title">성과 데이터 공통화 기준 수립 및 상품 프레임워크 설계</div>
@@ -555,97 +731,6 @@ section.active{display:block}
                 <div class="result-item">
                     <div class="result-v">리소스 재조정</div>
                     <div class="result-l">일부 상품 Fadeout 및<br>리소스 재조정에 기여</div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- ===== CASE 4: Works Project ===== -->
-<section id="case4">
-    <div class="eyebrow">Case Study 04 — 제품 기획</div>
-    <div class="case">
-        <span class="case-badge">PRODUCT</span>
-        <div class="case-title">WORKS Project — 업무관리 도구 제품 기획 및 시장 분석</div>
-        <div class="case-sub">별도 SaaS 도입이 아닌, 기존 플랫폼 내 기능 통합 방향을 선택했다.</div>
-
-        <div class="case-section">
-            <div class="case-section-title">📌 Context</div>
-            <p>WORKS 플랫폼의 업무관리 기능 확장이 필요한 상황이었습니다. 글로벌 시장에서 Monday.com, ClickUp 등 범용 업무관리 도구가 커뮤니케이션 영역(메일·메신저)과의 통합을 통해 빠르게 성장하고 있었고, 국내에서도 메신저+업무관리 세트형 시장 진출이 활발한 상태였습니다.</p>
-        </div>
-
-        <div class="case-section">
-            <div class="case-section-title"><span class="star">⭐</span> Problem Definition</div>
-            <p>"어떤 업무관리 도구를 만들 것인가"가 아니라, <strong>"업무 요청의 발생–수집/분류–수행 단계 중 어디를 타겟으로 할 것인지, WORKS의 강점 영역에서 Up-selling할 것인지 신규 시장에 진출할 것인지"</strong>가 핵심 문제였습니다. 업무관리 도구 시장의 구조와 WORKS의 포지셔닝을 정의해야 했습니다.</p>
-        </div>
-
-        <div class="case-section">
-            <div class="case-section-title">⚖️ Key Considerations</div>
-            <div class="tradeoff">
-                <div class="tradeoff-label">Tradeoff Analysis</div>
-                <p><strong>Up-selling vs 신규 시장 진출</strong> — WORKS 기존 고객 대상 업무관리 기능 Up-selling은 확실한 고객 기반이 있으나 시장 규모가 제한적. 신규 시장 진출은 추가 매출 확보 가능하나 진입 비용 발생</p>
-                <p style="margin-top:0.3rem;"><strong>내부 이벤트 수집 vs 외부 이벤트 수집</strong> — 메일·메신저 등 WORKS 내부 이벤트 기반 자동화를 우선할 것인지, 외부 3rd party 도구 연동을 통한 확장을 우선할 것인지</p>
-                <p style="margin-top:0.3rem;"><strong>별도 SaaS vs 플랫폼 통합</strong> — 별도 SaaS 도입 시 사용자 부담이 크고, 기존 플랫폼 내 기능 통합이 사용자 편익과 확장성 측면에서 유리</p>
-            </div>
-        </div>
-
-        <div class="case-section">
-            <div class="case-section-title">🎯 My Role</div>
-            <ul>
-                <li>프로젝트 관리도구 상위 기획서 제작 (제품 컨셉 아이디어 및 리서치 / 내부 사용성 데이터 분석 지원)</li>
-                <li>사용자/파트너 인터뷰 진행 및 핵심 요구사항 도출 및 개발 우선순위 조정 (<strong>과제 리드</strong>)</li>
-            </ul>
-        </div>
-
-        <div class="case-section">
-            <div class="case-section-title">🔧 Approach</div>
-            <ul>
-                <li>데스크 리서치를 통해 협업도구의 관리 니즈가 커뮤니케이션에서 실행 과정 전반으로 확대된다는 인사이트를 발굴하여 상위 기획서 제품 컨셉 도출에 기여</li>
-                <li>사용자/파트너사 인터뷰를 통해, 별도의 SaaS를 도입하는 것에 대한 거부감과 시장 성숙도가 낮음을 근거로 세부 기능 고도화보다는 기존 협업툴과의 연동을 우선순위 과제로 진행하는데 기여</li>
-            </ul>
-        </div>
-
-        <div class="case-section slide-gallery">
-            <div class="slide-gallery-title">📎 검토 자료 (실제 산출물)</div>
-            <div class="slide-grid">
-                <div class="slide-item" onclick="openLightbox(this)">
-                    <img src="slides/works_analysis.png" alt="업무 단계 및 분석 대상 정의" loading="lazy">
-                    <div class="slide-caption"><strong>업무 단계 분석</strong> — 발생–수집/분류–수행 3단계 정의 및 시장 분류</div>
-                </div>
-                <div class="slide-item" onclick="openLightbox(this)">
-                    <img src="slides/works_market_global.png" alt="글로벌 시장 분석" loading="lazy">
-                    <div class="slide-caption"><strong>글로벌 시장 현황</strong> — Monday.com·ClickUp 등 초기 형태 및 확장 전략 분석</div>
-                </div>
-                <div class="slide-item" onclick="openLightbox(this)">
-                    <img src="slides/works_strategy.png" alt="시장 분석 결론" loading="lazy">
-                    <div class="slide-caption"><strong>시장 분석 결론</strong> — Up-selling vs 신규 시장 진출 Option 도출</div>
-                </div>
-                <div class="slide-item" onclick="openLightbox(this)">
-                    <img src="slides/works_roadmap.png" alt="전략 방향성 도출" loading="lazy">
-                    <div class="slide-caption"><strong>전략 방향성 로드맵</strong> — Option별 진입·성장 과제 설계 및 Target 고객군 정의</div>
-                </div>
-            </div>
-        </div>
-
-        <div class="case-section">
-            <div class="case-section-title">💡 Decision</div>
-            <p>별도 SaaS 도입이 아닌, <strong>WORKS 플랫폼 내 기능 통합 방향</strong>을 선택했습니다. 사용자 부담을 최소화하면서도, 메일·메신저·드라이브 등 WORKS 강점 영역의 내부 이벤트를 Trigger 기반으로 자동 수집하는 구조를 우선 설계하고, 이후 외부 이벤트 수집 및 워크플로 자동화로 확장하는 단계별 로드맵을 제안했습니다.</p>
-        </div>
-
-        <div class="case-section">
-            <div class="case-section-title">📈 Result</div>
-            <div class="result-grid">
-                <div class="result-item">
-                    <div class="result-v">제품 출시</div>
-                    <div class="result-l">플랫폼 내 기능 통합<br>방향으로 제품 출시</div>
-                </div>
-                <div class="result-item">
-                    <div class="result-v">사용자 니즈 도출</div>
-                    <div class="result-l">인터뷰 기반<br>SaaS 도입 부담 인사이트</div>
-                </div>
-                <div class="result-item">
-                    <div class="result-v">전략 수립</div>
-                    <div class="result-l">도입 부담 인사이트 기반<br>통합 전략 수립</div>
                 </div>
             </div>
         </div>
